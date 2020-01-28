@@ -22,8 +22,7 @@ twitter_username:
 # variable definition moved to /_include/head.html instead
 # open_curly_bracket: {
 # close_curly_bracket: }
-open_curly_bracket: a
-close_curly_bracket: b
+
 
 # Set this to true to get LaTeX math equation support
 use_math: 
