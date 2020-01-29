@@ -20,8 +20,11 @@ I've modified the markdown-editor package on my local machine to add a new actio
 {% include screenshot url='/images/2020/01/insertscreenshot.png' caption='insertScreenshot'%}
 
 which inserted a screenshot code block like below:
+
 <%raw%>
+
   {% include screenshot url='/images/2020/01/insertscreenshot.png' caption='insertScreenshot'%}
+
 <%endraw%>
 
 Works like a charm!
