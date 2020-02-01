@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "# Machine Learning Crash Course 03"
+title: "Machine Learning Crash Course 03"
 date: "2020-01-31 12:56"
 ---
 
@@ -36,3 +36,5 @@ date: "2020-01-31 12:56"
 下图为一个数据集的L2误差计算方法
 
 ![mlcc03](/images/2020/01/mlcc03.png)
+
+## 回归模型应用实例
