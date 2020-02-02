@@ -66,3 +66,15 @@ date: "2020-01-31 12:02"
 分类模型推断出离散的结果。例如：这封是否为垃圾邮件，这张图片是猫还是狗还是大象。
 
 ## 损失 （ 误差 / 偏差 ） Loss
+
+
+## 梯度下降法（Gradient Descent）
+> todo: link to lesson 04
+
+### 随机梯度下降法 Stochastic Gradient Descent
+
+一次抽取一个样本
+
+### 小批量梯度下降法 Mini-Batch Gradient Descent
+
+随机抽取 10-1000 个样本，损失和梯度计算在这10-1000个样本上计算得出。
