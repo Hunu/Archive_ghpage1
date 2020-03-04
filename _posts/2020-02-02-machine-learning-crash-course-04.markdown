@@ -87,3 +87,20 @@ date: "2020-02-02 16:38"
 这种随机抽取一个样本进行模型迭代的方法叫做**随机梯度下降法 Stochastic Gradient Descent**。
 
 在实际应用中，我们衍生出了一种更折中的方案，那就是随机抽取一小部分样本，而不是只抽取一个，这一小部分样本通常由10-1000个样本组成，使用这一小部分样本来进行模型迭代。这种方法叫做**小批量梯度下降法 Mini-Batch Gradient Descent**。
+
+## 降低损失 - 迭代方法
+
+梯度下降法的第一步是选择一个$$w_1$$的起始点。起始点的选择并不重要，所以，许多算法都将起始$$w_1$$设置为0，或者选择一个更为随机的数字。下图中我们选择了一个略微大于0的值作为起始点
+
+![figure3 a starting point for gradient descent](/images/2020/02/figure3-a-starting-point-for-gradient-descent.png)
+
+随后，我们使用梯度下降法中的数学方法来计算该损失曲线在起始点的梯度。在上图中，起始点的损失的斜率等于曲线函数在起始点的导数。
+
+  > 当存在多个权重时，梯度是相对于权重的偏导数的向量。
+
+请注意，梯度是一个矢量，矢量具有（且仅具有）一下两个特征：
+
+- 方向
+- 大小
+
+# todo continue on https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent?hl=en
